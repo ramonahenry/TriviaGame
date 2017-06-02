@@ -1,47 +1,57 @@
-<!DOCTYPE html>
-<html>
-<head>
-<!--
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
- -->
-  <!--<link rel="stylesheet" href="assets\css\style.css"> -->
-<title>Trivia Game</title>
+<!DOCTYPE html> 
+ <html> 
+ <head> 
+ <!-- 
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+  --> 
+  <link rel="stylesheet" href="assets/css/style.css"> 
+ <title>Trivia Game</title> 
+ 
+ 
+ </head> 
+ <body> 
 
-</head>
-<body>
-<div class="container">
-	<h2 class="homework">Still working on this homework assignment due to urgencies this weekend. Plan to finish by Wednesday Morning at the latest.</h2>
-	
-	<h1>California Trivia</h1>
-	<div id="question">
-	</div>
-
-	<h2>Time Remaining: <span id="timer"></span></h2>
-
-	<select id="choices">
-    <option id="choice0" value="0"></option>
-    <option id="choice1" value="1"></option>
-    <option id="choice2" value="2"></option>
-    <option id="choice3" value="3"></option>
-    
-	</select>
-	<br>
-	<br>
-<!--
-	<ol class="scores">
-		<li id="correct">score-one</li>
-		<li id="incorrect">score-two</li>
-		<li id="unanswered">score-three</li>
-	</ol>
--->
-	<button id="startGame">Start Game</button>
-	
-		
-</div>
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-  <script src="assets/javascript/app.js"></script>
-	
+ <div class="container"> 
+ 	
+ 	 
+ 	<h1>California Trivia</h1> 
 
 
-</body>
-</html>
+
+ 	<h3 id= "time-remaining">Time Remaining: <span id="timer"></span></h3>
+ 	<div id="game-over"> 
+ 	</div> 
+
+ 	<div id="question"> 
+ 	</div> 
+
+ 	<p id="correct-answer"></p>
+ 	 
+ 	<div id ="choices"> 
+
+
+ 	<p  id="choice0" value="0"></p> 
+     <p  id="choice1" value="1"></p> 
+     <p  id="choice2" value="2"></p> 
+     <p  id="choice3" value="3"></p>
+      
+ 	</div> 
+
+ 	<div class="tallies"> 
+ 		<p id="correct"></p> 
+ 		<p id="incorrect"></p> 
+ 		<p id="missed"></p> 
+ 	</div> 
+ 	<br>
+
+ 	<button id="startGame">Start Game</button> 
+ 	 
+ 		 
+ </div> 
+
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script> 
+	<script src="assets/javascript/apps.js"></script>
+  
+ 
+ </body> 
+ </html> 
